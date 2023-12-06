@@ -1,4 +1,4 @@
-employee-list-mert-2zdgcm2rt-mert-karatas-projects.vercel.app
+https://employee-list-mert-git-master-mert-karatas-projects.vercel.app/
 
 # Getting Started with Create React App
 
