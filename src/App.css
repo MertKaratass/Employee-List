@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+main {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 10px 0;
 }
 
-.App-link {
-  color: #61dafb;
+section {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.list-item-info h4,
+.list-item-info p {
+  display: flex;
+  line-height: 0.5;
+  opacity: 0.8;
+}
+
+.list-item h3 {
+  font-size: 20px;
+}
+
+.list-item img {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+}
+
+.btn1 button {
+  border: none;
+  margin: 10px;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  background-color: #00cffe;
+}
+
+@media (max-width: 500px) {
+  section {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 20px;
   }
 }
